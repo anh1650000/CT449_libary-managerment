@@ -661,8 +661,8 @@ Check:
 | **Họ và tên**  | Phạm Duy Anh                    |
 | **MSSV**       | B2308346                        |
 | **Lớp**        | CT449 - Phát triển ứng dụng Web |
-| **Giảng viên** | ...                             |
-| **Học kỳ**     | 2 - Năm học 2024-2025           |
+| **Giảng viên** | ThS. GVC Nguyễn Minh Trung      |
+| **Học kỳ**     | 1 - Năm học 2025-2026           |
 | **Trường**     | Đại học Cần Thơ                 |
 
 ---
