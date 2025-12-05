@@ -1,0 +1,837 @@
+/* ========================================
+   DARK THEME OVERRIDE
+   ======================================== */
+
+/* Base Dark Colors */
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+    color: #e5e7eb !important;
+}
+
+/* Cards & Containers */
+.book-card,
+.borrow-card,
+.book-detail-card,
+.table-card,
+.data-table,
+.stats-card,
+.modal-content,
+.auth-card,
+.admin-content-area,
+.about-section,
+.featured-section {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+/* Text Colors */
+.page-title,
+.section-title,
+.book-title,
+.hero-title,
+.about-title,
+.stat-label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f1f5f9 !important;
+}
+
+.page-description,
+.book-author,
+.book-info,
+.hero-subtitle,
+.about-description,
+.borrow-info,
+.borrow-details,
+.borrow-meta,
+.book-author-text,
+p {
+    color: #cbd5e1 !important;
+}
+
+.book-author span {
+    color: #94a3b8 !important;
+}
+
+.book-value,
+.book-year,
+.book-meta span {
+    color: #94a3b8 !important;
+}
+
+/* Backgrounds - Light to Dark */
+.my-borrows-page,
+.books-page,
+.book-detail-page,
+.admin-page,
+.auth-page,
+.home-page {
+    background: #0f172a !important;
+}
+
+.book-image-container,
+.book-cover {
+    background: #1e293b !important;
+}
+
+/* Books Page */
+.books-container {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+.books-title {
+    color: #f1f5f9 !important;
+}
+
+.books-subtitle {
+    color: #94a3b8 !important;
+}
+
+.books-controls {
+    background: #0f172a !important;
+    border-color: #374151 !important;
+    padding: 16px !important;
+}
+
+.search-box input[type="text"] {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.search-box input[type="text"]:focus {
+    border-color: #4f46e5 !important;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15) !important;
+    background: #1e293b !important;
+}
+
+/* Admin page search inputs */
+.borrows-page .search-input,
+.content-page .search-input,
+.admin-content input[type="text"] {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.borrows-page .search-input:focus,
+.content-page .search-input:focus,
+.admin-content input[type="text"]:focus {
+    border-color: #4f46e5 !important;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15) !important;
+    background: #1e293b !important;
+}
+
+.books-search-container,
+.search-container {
+    background: transparent !important;
+}
+
+/* Tables */
+.table-header {
+    background: #0f172a !important;
+    border-color: #374151 !important;
+}
+
+.table-header th {
+    color: #f1f5f9 !important;
+}
+
+thead {
+    background: #0f172a !important;
+}
+
+th {
+    color: #f1f5f9 !important;
+    border-color: #374151 !important;
+}
+
+td {
+    color: #e5e7eb !important;
+    border-color: #374151 !important;
+}
+
+.table-row {
+    background: #1e293b !important;
+    border-color: #374151 !important;
+}
+
+.table-row:hover,
+tr:hover {
+    background: #334155 !important;
+}
+
+.table-cell {
+    color: #e5e7eb !important;
+    border-color: #374151 !important;
+}
+
+/* Inputs */
+input[type="text"]:not(.search-input),
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.search-form .search-input,
+.hero-search .search-input {
+    background: transparent !important;
+    border-color: transparent !important;
+    color: #e5e7eb !important;
+    border: none !important;
+}
+
+.admin-content .search-input,
+.borrows-page .search-input,
+.content-page .search-input {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+    border: 1px solid #374151 !important;
+}
+
+.admin-content .search-input:focus,
+.borrows-page .search-input:focus,
+.content-page .search-input:focus {
+    border-color: #4f46e5 !important;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15) !important;
+    background: #1e293b !important;
+    outline: none !important;
+}
+
+.search-input:focus,
+input.search-input:focus,
+input[type="text"].search-input:focus {
+    background: transparent !important;
+    border-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.search-input::placeholder {
+    color: #9ca3af !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6b7280 !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2) !important;
+}
+
+/* Buttons - Keep Primary Colors Vibrant */
+.book-detail-button,
+.cta-button,
+.btn-add,
+.search-button,
+.borrow-button {
+    background: #4f46e5 !important;
+    color: #fff !important;
+}
+
+.search-btn,
+.search-button {
+    background: #4f46e5 !important;
+    color: #fff !important;
+}
+
+.book-detail-button:hover,
+.cta-button:hover,
+.btn-add:hover {
+    background: #4338ca !important;
+}
+
+/* Status Badges - Darken */
+.status-returned {
+    background: #065f46 !important;
+    color: #d1fae5 !important;
+}
+
+.status-pending {
+    background: #1e40af !important;
+    color: #dbeafe !important;
+}
+
+.status-overdue,
+.stock-out {
+    background: #991b1b !important;
+    color: #fee2e2 !important;
+}
+
+.status-due-soon,
+.stock-low {
+    background: #92400e !important;
+    color: #fef3c7 !important;
+}
+
+.status-normal,
+.stock-available {
+    background: #374151 !important;
+    color: #d1d5db !important;
+}
+
+/* Admin Sidebar */
+.admin-sidebar {
+    background: #020617 !important;
+    border-color: #334155 !important;
+}
+
+.sidebar-header {
+    border-color: #1e293b !important;
+}
+
+.admin-nav-link {
+    color: #cbd5e1 !important;
+}
+
+.admin-nav-link:hover,
+.admin-nav-link.active {
+    background: #1e293b !important;
+    color: #f1f5f9 !important;
+}
+
+.admin-nav-icon {
+    color: #9ca3af !important;
+}
+
+.user-menu-name,
+.user-name {
+    color: #e5e7eb !important;
+}
+
+/* Admin Content Area */
+.users-page,
+.content-page,
+.borrows-page {
+    background: #0f172a !important;
+}
+
+.dashboard-page {
+    background: #0f172a !important;
+    padding: 32px !important;
+    border-radius: 12px !important;
+}
+
+.admin-header {
+    background: #1e293b !important;
+    border-color: #374151 !important;
+}
+
+.content-wrapper {
+    background: transparent !important;
+}
+
+.admin-content {
+    background: #0f172a !important;
+}
+
+.dashboard-header {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+    border-radius: 12px !important;
+    padding: 24px !important;
+}
+
+.welcome-text,
+.dashboard-title {
+    color: #f1f5f9 !important;
+}
+
+.dashboard-subtitle {
+    color: #94a3b8 !important;
+}
+
+.tabs-container {
+    background: transparent !important;
+    border-color: #374151 !important;
+    overflow: hidden !important;
+}
+
+.tabs-nav {
+    background: transparent !important;
+    border-color: #374151 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    flex-wrap: nowrap !important;
+}
+
+.tab-button {
+    background: transparent !important;
+    color: #94a3b8 !important;
+    border-color: #374151 !important;
+    white-space: nowrap !important;
+}
+
+.tab-button.active {
+    background: #1e293b !important;
+    color: #f1f5f9 !important;
+    border-color: #4f46e5 !important;
+}
+
+.tab-button:hover {
+    background: #1e293b !important;
+    color: #cbd5e1 !important;
+}
+
+/* Admin Stats Cards */
+.stat-card,
+.stats-card {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+.stat-info h3 {
+    color: #94a3b8 !important;
+}
+
+.stat-value {
+    color: #f1f5f9 !important;
+}
+
+.stat-change {
+    color: #9ca3af !important;
+}
+
+.stat-icon {
+    color: #818cf8 !important;
+}
+
+/* Form Labels */
+.form-label,
+label,
+.form-field label {
+    color: #cbd5e1 !important;
+}
+
+/* Form Inputs - Admin */
+.form-field input,
+.form-field select,
+.form-field textarea {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2) !important;
+}
+
+/* Content Controls */
+.content-controls {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border: 1px solid #374151 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+.controls-grid {
+    background: transparent !important;
+}
+
+/* Filter Group */
+.filter-group {
+    background: #1e293b !important;
+    border-color: #374151 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+
+/* Filter Buttons */
+.filter-button {
+    background: #0f172a !important;
+    color: #cbd5e1 !important;
+    border-color: #374151 !important;
+}
+
+.filter-button:hover {
+    background: #1e293b !important;
+    color: #e5e7eb !important;
+}
+
+.filter-button.active {
+    background: #4f46e5 !important;
+    color: #fff !important;
+}
+
+/* Header */
+.header-main {
+    background: #0f172a !important;
+    border-color: #374151 !important;
+}
+
+.nav-link {
+    color: #cbd5e1 !important;
+}
+
+.nav-link:hover {
+    color: #f1f5f9 !important;
+}
+
+.nav-link::after {
+    background: linear-gradient(
+        to right,
+        #1192ce,
+        #8212ce,
+        #3d12ce,
+        #0b73ce
+    ) !important;
+    height: 2px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    border-radius: 10px !important;
+}
+
+.nav-link:hover::after {
+    width: 100% !important;
+    transition: width 0.3s ease !important;
+}
+
+.dropdown-menu {
+    background: #1e293b !important;
+    border-color: #374151 !important;
+}
+
+.dropdown-item {
+    color: #cbd5e1 !important;
+}
+
+.dropdown-item:hover {
+    background: #334155 !important;
+    color: #f1f5f9 !important;
+}
+
+/* Modal */
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Quote Section */
+.quote-section {
+    background: #0f172a !important;
+}
+
+.quote-text {
+    color: #f1f5f9 !important;
+}
+
+.quote-author {
+    color: #94a3b8 !important;
+}
+
+/* Footer */
+.footer {
+    background: #0f172a !important;
+    border-color: #374151 !important;
+}
+
+.footer-text,
+.footer-link {
+    color: #cbd5e1 !important;
+}
+
+/* Scrollbar Dark */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Hero Section */
+.hero-overlay {
+    background: rgba(15, 23, 42, 0.85) !important;
+}
+
+/* Price */
+.book-price {
+    color: #34d399 !important;
+}
+
+/* Shadows - Subtle */
+.book-card:hover,
+.borrow-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+.borrow-details {
+    background: #0f172a !important;
+    border-color: #374151 !important;
+}
+
+.status-container {
+    border-color: #374151 !important;
+}
+
+.table-card {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+.table-scroll {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+
+.data-table {
+    border-radius: 12px !important;
+}
+
+.data-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px !important;
+}
+
+.data-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px !important;
+}
+
+.data-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px !important;
+}
+
+.data-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px !important;
+}
+
+.table-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 5px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Auth Pages */
+.auth-container {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+}
+
+.auth-card {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+}
+
+.auth-title {
+    color: #f1f5f9 !important;
+}
+
+.auth-subtitle {
+    color: #94a3b8 !important;
+}
+
+.form-group label,
+.input-group label {
+    color: #cbd5e1 !important;
+}
+
+.auth-link,
+.register-link,
+.login-link {
+    color: #818cf8 !important;
+}
+
+.auth-link:hover,
+.register-link:hover,
+.login-link:hover {
+    color: #a5b4fc !important;
+}
+
+/* Sections - Homepage */
+.features-section,
+.stats-section,
+.cta-section {
+    background: transparent !important;
+}
+
+.feature-card {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+.feature-title {
+    color: #f1f5f9 !important;
+}
+
+.feature-description {
+    color: #cbd5e1 !important;
+}
+
+.feature-icon {
+    color: #818cf8 !important;
+}
+
+.cta-text {
+    color: #f1f5f9 !important;
+}
+
+/* About Page */
+.about-container {
+    background: transparent !important;
+}
+
+.about-content {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+.about-header {
+    color: #f1f5f9 !important;
+}
+
+.about-text,
+.about-paragraph {
+    color: #cbd5e1 !important;
+}
+
+.about-highlight {
+    color: #818cf8 !important;
+}
+
+.about-list li {
+    color: #cbd5e1 !important;
+}
+
+.about-divider {
+    background: #374151 !important;
+}
+
+/* Book Detail Page */
+.book-detail-card {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    border-color: #374151 !important;
+}
+
+.book-detail-container {
+    background: transparent !important;
+}
+
+.book-detail-title,
+.book-title {
+    color: #f1f5f9 !important;
+}
+
+.book-detail-author,
+.book-author {
+    color: #94a3b8 !important;
+}
+
+.meta-item {
+    background: transparent !important;
+    border: none !important;
+}
+
+.meta-label,
+.detail-label {
+    color: #94a3b8 !important;
+}
+
+.meta-value,
+.detail-value,
+.detail-value span,
+.borrow-date,
+.return-date,
+.borrow-details span,
+.detail-item span {
+    color: #e5e7eb !important;
+}
+
+.meta-value.price-value {
+    color: #34d399 !important;
+}
+
+.book-price span {
+    color: #34d399 !important;
+}
+
+/* Book price in detail page - align left */
+.book-info-section .book-price {
+    text-align: left !important;
+    justify-content: flex-start !important;
+}
+
+/* Book price in cards - align center */
+.book-card .book-price {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.meta-value.stock-available {
+    color: #34d399 !important;
+}
+
+.meta-value.stock-low {
+    color: #f87171 !important;
+}
+
+.section-heading {
+    color: #f1f5f9 !important;
+}
+
+.book-description {
+    color: #cbd5e1 !important;
+}
+
+.detail-label {
+    color: #94a3b8 !important;
+}
+
+.quantity-input,
+.quantity-control {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.available-badge,
+.availability-badge.available {
+    background: #065f46 !important;
+    color: #6ee7b7 !important;
+}
+
+.unavailable-badge,
+.availability-badge.unavailable {
+    background: #7f1d1d !important;
+    color: #fca5a5 !important;
+}
