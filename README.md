@@ -215,6 +215,12 @@ Book    (N) ──────── (1) Publisher      # maNXB → maNXB
 git clone https://github.com/anh1650000/CT449_libary-managerment.git
 cd libary-managerment
 ```
+### 📦 Bước 2 (Nếu đã cài đặt sẵn mọi thứ cần thiết)
+```bash
+#Chạy từng lệnh!!!
+cd backend
+npm run dev
+```
 
 ### 📦 Bước 2: Cài đặt dependencies
 
@@ -283,7 +289,7 @@ Hệ thống tự động tạo tài khoản admin khi khởi động lần đ�
 
 | Role      | Email               | Password   |
 | --------- | ------------------- | ---------- |
-| **Admin** | `admin@library.com` | `admin123` |
+| **Admin** | `adminAnhh@library.com` | `162005duyanh` |
 
 > ⚠️ **Lưu ý:** Đổi mật khẩu admin sau lần đăng nhập đầu tiên để bảo mật!
 
